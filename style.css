@@ -14,10 +14,24 @@ nav{
   bottom: 20px;
   text-decoration: none
 }
+
 nav li{
   display: inline-block;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 60px;
   text-transform: uppercase;
   border: 3px solid red;
 }
-background color blue
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+.produtos li:hover {
+    border-color: #C78C19;
+}
+.produtos li:active {
+    border-color: #088C19;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
